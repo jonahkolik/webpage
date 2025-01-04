@@ -1,0 +1,53 @@
+@font-face {
+    font-family: f25 Bank Printer;
+    src: url(assets/fonts/mono\ copy.otf);
+}
+
+html{
+    cursor:url(assets/cursor/Green.cur),default;
+    background-color:black;
+}
+
+a, a:visited{
+    cursor:url(assets/cursor/Link.cur),auto;
+    color:rgba(92, 92, 92, 0.475);
+    text-decoration: none;
+    line-height: 90%;
+}
+
+a:hover, a:active{
+    cursor:url(assets/cursor/Link.cur),auto;
+    color:rgb(0, 0, 0);
+}
+
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-button{
+    font-family:"f25 Bank Printer";
+    font-size:1em;
+    filter:blur(0.1px);
+    line-height:1.5em;
+    position:fixed;
+    z-index:1;
+    padding:10px;
+}
+
+.image{
+    z-index:0;
+}
+
+#home-button-bottom{
+    font-family:"f25 Bank Printer";
+    font-size:1em;
+    filter:blur(0.1px);
+    line-height:1.5em;
+    position:fixed;
+    bottom:0;
+    z-index:1;
+    padding:10px;
+}

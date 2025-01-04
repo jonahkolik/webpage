@@ -1,0 +1,52 @@
+@font-face {
+    font-family: f25 Bank Printer;
+    src: url(assets/fonts/mono\ copy.otf);
+}
+
+body{
+    font-family: monospace;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    background-image: url(assets/images/greytexture.jpeg);
+    background-size: 100%;
+    background-repeat:repeat-y;
+}
+
+#main-body {
+    display:flex;
+    flex-direction: column;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+html{
+    cursor:url(assets/cursor/Green.cur),default;
+}
+
+a, a:visited{
+    cursor:url(assets/cursor/Link.cur),auto;
+    color:rgb(200, 200, 200);
+    text-decoration: none;
+    line-height: 70%;
+}
+
+a:hover, a:active{
+    cursor:url(assets/cursor/Link.cur),auto;
+    color:rgb(0, 0, 0);
+}
+
+.ascii-container {
+    font-size: 6px;
+    line-height: 4px;
+    color: rgb(200, 200, 200);
+    margin-bottom:2px;
+}
+
+#portfolio-button{
+    font-family: "f25 Bank Printer";
+    font-size:1em;
+    line-height:1.5em;
+    padding-top:6px;
+}
